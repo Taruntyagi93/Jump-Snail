@@ -28,7 +28,7 @@ export default class Game {
         Game.scoreListener = scoreListener;
         Game.canvas = canvas;
         Game.ctx = Game.canvas.getContext("2d");
-        Game.canvas.width = 450;
+        Game.canvas.width = 510;
         Game.canvas.height = 800;
     }
     start(){
