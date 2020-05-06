@@ -7,6 +7,6 @@ export default class Block extends Node {
 
         this.image = Game.image("block");
         this.y = -this.h;
-        this.speed = 4;
+        this.speed = 5.8;
     }
 }

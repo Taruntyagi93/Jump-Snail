@@ -36,7 +36,7 @@ export default function SaveScore({ score, closeHandler }) {
     return (
         <div id="save-score" className="cybersecurity2">
             <h2 className="cybersecurity2" >{score} <small>PTS</small></h2>
-            <div className="cybersecurity"><img className="cybersecurity" src={arr[Math.floor(7 * Math.random())]}></img></div>
+            <div className="cybersecurity"><img className="cybersecurity" src={arr[Math.floor(4 * Math.random())]}></img></div>
             {
                 saved ? (
                     <div>Saved!</div>

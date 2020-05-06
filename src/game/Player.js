@@ -15,7 +15,7 @@ export default class Player extends Sprite {
         this.towards = false;
 
         this.ticksPerFrame = 4;
-        this.numberOfFrames = 6;
+        this.numberOfFrames = 4;
 
         this.background = "#F25244";
     }

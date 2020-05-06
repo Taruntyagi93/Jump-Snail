@@ -7,8 +7,8 @@ export default class Bonus extends Sprite {
 
         this.image = Game.image("redBonus");
 
-        this.ticksPerFrame = 4;
-        this.numberOfFrames = 5;
+        this.ticksPerFrame = 8;
+        this.numberOfFrames = 4;
 
         this.y = -this.h;
         this.speed = 7;
